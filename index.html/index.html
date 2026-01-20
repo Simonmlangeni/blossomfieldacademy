@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matric Upgrade 2026</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #1f7a91;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .info-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .box {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #1f7a91;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        .subjects {
+            columns: 2;
+        }
+        @media (max-width: 700px) {
+            .subjects {
+                columns: 1;
+            }
+        }
+        form {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 0.7rem;
+            margin-top: 0.4rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 1.5rem;
+            background: #1f7a91;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        button:hover {
+            background: #155c6e;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 2rem;
+        }
+        .contact p {
+            margin: 0.4rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BLOSSOMFIELD ACADEMY</h1>
+    <p>Upgrade Your Results. Upgrade Your Future.</p>
+</header>
+
+<section>
+    <div class="info-boxes">
+        <div class="box">
+            <h2>Programme Information</h2>
+            <p><strong>Accommodation:</strong> Available</p>
+            <p><strong>Registration Fee:</strong> R 800</p>
+        </div>
+        <div class="box">
+            <h2>Location</h2>
+            <p>2nd Floor, Old Nedbank Building</p>
+            <p>225 Longmarket Street</p>
+            <p>Pietermaritzburg</p>
+        </div>
+        <div class="box contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> 076 801 5805</p>
+<p><strong>Email:</strong>blossomfield.academy2@gmail.com</p>
+
+ 
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Subjects Offered</h2>
+    <ul class="subjects">
+        <li>English (FAL / HL)</li>
+        <li>IsiZulu (FAL / HL)</li>
+        <li>Afrikaans (FAL / HL)</li>
+        <li>Mathematics</li>
+        <li>Mathematical Literacy</li>
+        <li>Physical Sciences</li>
+        <li>Life Sciences</li>
+        <li>Agricultural Sciences</li>
+        <li>Accounting</li>
+        <li>Economics</li>
+        <li>Business Studies</li>
+        <li>History</li>
+        <li>Geography</li>
+        <li>Tourism</li>
+        <li>Life Orientation</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Online Registration</h2>
+    <p>Please complete the form below to register for the Matric Upgrade 2026 programme.</p>
+
+    <form action="#" method="post">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="idnumber">ID Number</label>
+        <input type="text" id="idnumber" name="idnumber" required />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="subjects">Subjects You Want to Register For</label>
+        <textarea id="subjects" name="subjects" rows="4" placeholder="e.g. Mathematics, Physical Sciences" required></textarea>
+
+        <label for="accommodation">Do you need accommodation?</label>
+        <select id="accommodation" name="accommodation" required>
+            <option value="">-- Select an option --</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <button type="submit">Submit Registration</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Matric Upgrade Programme | Pietermaritzburg</p>
+</footer>
+
+</body>
+</html>
